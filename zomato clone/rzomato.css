@@ -1,0 +1,177 @@
+@media(max-width:900px){
+    .header ul{
+        display: none;
+        background-color: red;
+    }
+    .header-main{
+        position: relative;
+        top: 9vh;
+    }
+    .header i{
+        position: relative;
+        color: white;
+        left: 93%;
+        top: 2vh;
+        display: block;
+        text-align: right;
+    }
+    .logo h1{
+        font-size: 3.5em;
+        text-align: center;
+        font-family: italic,Helvetica;
+        font-weight: bolder;
+        color:white;
+    }
+    .contain-text h2{
+        color: white;
+        font-size: 1.4em;
+        text-align: center;
+    }
+    .location{
+        /* right:2vh; */
+        align-items:baseline;
+        justify-content: center;
+    }
+    .location-gps{
+        display:none;
+        position: absolute;
+        background-color: white;
+        width: 20vh;
+        margin-left: 9vh;
+        height: 0vh;
+        transition-delay: 10s;
+        }
+        .search-select input{
+            width: 12vh;
+            height: 5vh;
+            border: none;
+            outline: none;
+            padding: 0vh;
+            /* position: absolute; */
+        }
+        .fa-angle-down{
+            background-color: white;
+            padding: 1.6vh;
+            transition: 0.9;
+        }
+        .fa-magnifying-glass {
+            background-color: white;
+            text-align: center;
+            padding: 1.6vh;
+            position: relative;
+            /* top: -0.4vh; */
+          }
+          .location-icon{
+            padding: 1.6vh;
+          }
+    .search-bar input {
+      outline: none;
+      border: none;
+      width: 22vh;
+      height: 5vh;
+      position: relative;
+      top: -0.1vh;
+    }
+    .food-item{
+        position: relative;
+        top: 20vh;
+    }
+    .food{
+        position: relative;
+        left: 10vh;
+        width: 45vh;
+        height: 30vh;
+        overflow: hidden;
+        /* top: 20vh; */
+    }
+    .food-img{
+        width: 100%;
+        background-size: cover;
+        height: 83%;
+    }
+    .middle-content-text{
+        left: 10vh;
+        font-size: 0.7em;
+        width: 50vh;
+    }
+    .middle-content-btn {
+        width: 30vh;
+    }
+    .info-img img{
+        width: 20vh;
+        height: 20vh;
+    }
+    .info-form{
+        font-size: 0.7em;
+        width: 30vh;
+    }
+    .radio{
+        padding: 1vh;
+        margin: 0;
+        font-size: 1.7vh;
+        /* text-align: center; */
+        align-items: center;
+    }
+    .radio input{
+        width: 2vh;
+        margin: 1vh;
+    }
+    .info-search-bar input{
+        width: 20vh;
+        height: 5vh;
+        border-radius: 0%;
+    }
+    .info-search-bar button{
+        width: 10vh;
+        height: 5vh;
+        padding: 1vh;
+    }
+    .reference{
+        padding: 1vh 0vh;
+        font-size: 1em;
+    }
+    .popular-c, .popular-r, .popular-w{
+        width: 80%;
+        margin-left: 2vh;
+    }
+    .about{
+        position: relative;
+        font-size: 1.4vh;
+        top: 0;
+    }
+    .heading{
+        margin: 0;
+    }
+    .about-btn{
+        width: 10vh;
+        height: 5vh;
+        font-size: 0.8em;
+        text-align: center;
+        align-items: center;
+    }
+    .about-list{
+        font-size: 0.7em;
+    }
+    .list1,.list2,.list3,.list4{
+        width: 25vh;
+        margin: 4vh 2vh;
+    }
+    .about-list h2{
+        font-size: 2.1em;
+        /* text-align: center; */
+        text-transform: capitalize;
+    }
+    .about-list ul li{
+        font-size: 1.4em;
+    }
+
+
+
+
+
+
+
+
+
+
+}
